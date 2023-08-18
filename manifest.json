@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Udemy Fullscreen",
+  "description": "An extension that makes the Udemy player fullscreen on your browser without hiding the tools from your system.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://www.udemy.com/course/*"],
+      "js": ["index.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
