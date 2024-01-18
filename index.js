@@ -48,7 +48,7 @@ const catchVideoChange = setInterval(() => {
 }, 100)
 
 const catchPlayer = setInterval(() => {
-  const mediaPlayer = document.querySelector('.video-player--container--YDQRW');
+  const mediaPlayer = document.querySelector('.video-player--container--3jY3v');
   const parentPlayer = mediaPlayer.parentNode;
   
   if (mediaPlayer) {
